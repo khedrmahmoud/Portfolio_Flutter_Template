@@ -42,14 +42,14 @@ class Contact extends StatelessWidget {
                   CardItem(
                       icon: FontAwesomeIcons.phone,
                       title: 'Phone',
-                      description: '+201144236955',
+                      description: '+20telphon_num',
                       iconSize: 4.5 * 16,
                       descriptionsize: 1.5 * 16,
                       titleColor: Colors.black),
                   CardItem(
                       icon: FontAwesomeIcons.envelopeCircleCheck,
                       title: 'Email',
-                      description: 'khedrtfg@gmail.com',
+                      description: 'email@gmail.com',
                       iconSize: 4.5 * 16,
                       descriptionsize: 1.5 * 16,
                       titleColor: Colors.black),
