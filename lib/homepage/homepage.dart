@@ -66,7 +66,7 @@ class _HomePageState extends State<HomePage> {
       body: Stack(
         children: [
           Image.asset(
-            'images/1background.png',
+            'images/background.png',
             width: size.width,
             height: size.height - 50,
             fit: BoxFit.fill,
