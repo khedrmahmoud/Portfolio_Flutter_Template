@@ -34,7 +34,7 @@ class Contact extends StatelessWidget {
                       fontSize: 2.2 * 16),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 30,
               ),
               ResponsiveRow(
@@ -42,14 +42,14 @@ class Contact extends StatelessWidget {
                   CardItem(
                       icon: FontAwesomeIcons.phone,
                       title: 'Phone',
-                      description: '+201144236955',
+                      description: '',
                       iconSize: 4.5 * 16,
                       descriptionsize: 1.5 * 16,
                       titleColor: Colors.black),
                   CardItem(
                       icon: FontAwesomeIcons.envelopeCircleCheck,
                       title: 'Email',
-                      description: 'khedrtfg@gmail.com',
+                      description: '',
                       iconSize: 4.5 * 16,
                       descriptionsize: 1.5 * 16,
                       titleColor: Colors.black),
@@ -61,13 +61,13 @@ class Contact extends StatelessWidget {
         Container(
           width: double.infinity,
           height: 90,
-          padding: EdgeInsets.all(2 * 16),
-          color: Color.fromRGBO(0, 0, 24, 1),
+          padding: const EdgeInsets.all(2 * 16),
+          color: const Color.fromRGBO(0, 0, 24, 1),
           child: Row(
             children: [
               Text('Copyright @',
                   style: GoogleFonts.ibmPlexSansCondensed(
-                      textStyle: TextStyle(
+                      textStyle: const TextStyle(
                           color: Colors.white,
                           fontSize: 1.3 * 16,
                           fontWeight: FontWeight.w600))),
@@ -77,7 +77,7 @@ class Contact extends StatelessWidget {
                           color: Colors.blue[900],
                           fontSize: 16,
                           fontWeight: FontWeight.w600))),
-              Spacer(),
+              const Spacer(),
               SocialsLinksWidget(iconSize: 1.4 * 16, spacing: 20),
             ],
           ),
