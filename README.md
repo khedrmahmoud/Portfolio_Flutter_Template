@@ -1,16 +1,51 @@
-# kh_web_site
+# Flutter Portfolio Template
 
-A new Flutter project.
+This is a simple Flutter template for building a personal portfolio website.
+
+## Features
+
+- **Responsive Design:** The template is built to be responsive, ensuring a seamless experience across various devices.
+- **Customizable:** Easily customize the template to match your personal brand by modifying the provided source code.
+- **Project Showcase:** Display your projects with project details, including images, and links.
+- **Skills Section:** Highlight your skills and technologies you are proficient in.
+- **Contact Form:** Include a contact form for visitors to reach out to you directly.
+
+## Screenshots
+
+![Screenshot 1](screenshots/screenshot1.png)
+*Caption for Screenshot 1.*
+
+![Screenshot 2](screenshots/screenshot2.png)
+*Caption for Screenshot 2.*
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+Make sure you have Flutter installed on your machine. If not, you can download it [here](https://flutter.dev/docs/get-started/install).
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Installation
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/portfolio-flutter.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd portfolio-flutter
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    flutter pub get
+    ```
+
+4. Run the application:
+
+    ```bash
+    flutter run
+    ```
